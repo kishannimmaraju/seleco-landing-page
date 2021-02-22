@@ -1,0 +1,321 @@
+.nav-items {
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  margin: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+.nav_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.logo a {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.logo a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.nav,
+.bannerbackground,
+.callaction_container {
+  background-color: #2a2c39;
+}
+
+.homelinkactive {
+  background-color: rgb(239, 102, 3);
+  border-radius: 50px;
+}
+.nav-link:hover {
+  background-color: rgb(239, 102, 3);
+  border-radius: 50px;
+  color: #fff;
+}
+.banner-title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 60px 0px 20px 0px;
+  font-weight: 700;
+  font-size: 48px;
+}
+.banner-content {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  padding: 25px 15px;
+}
+.banner-button,
+.callaction_button button {
+  color: rgb(255, 255, 255);
+  background-color: #2a2c39;
+  border-radius: 50px;
+  padding: 10px 25px;
+  border: 2px solid rgb(241, 103, 4);
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.banner-button:focus,
+.about-rightcontent .about-button {
+  outline: none;
+}
+.banner-button:hover,
+.callaction_button button:hover {
+  background-color: rgb(241, 103, 4);
+}
+.about,
+.services,
+.portfolio-title,
+.competing,
+.question,
+.contact,
+.team {
+  padding: 60px 0px;
+}
+.about-title h3,
+.services-title h3,
+.portfolio-title h3,
+.testimonals-title h3,
+.competing_title h3,
+.question_title h3,
+.team_title h3,
+.contact_title h3 {
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #aaaaaa;
+  position: relative;
+}
+.about-title h3::after,
+.services-title h3::after,
+.portfolio-title h3::after,
+.testimonals-title h3::after,
+.competing_title h3::after,
+.question_title h3::after,
+.team_title h3::after,
+.contact_title h3::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  background: #fd9042;
+  position: absolute;
+  top: 50%;
+}
+.about-title p,
+.services-title p,
+.portfolio-title p,
+.testimonals-title p,
+.competing_title p,
+.question_title p,
+.team_title p,
+.contact_title p {
+  font-size: 36px;
+  font-weight: 900;
+  color: #2a2c39;
+}
+.aboutcontent {
+  color: #2a2c39;
+  font-family: "Open Sans", sans-serif;
+}
+.about-paraicons img {
+  width: 20px;
+  padding-right: 10px;
+}
+.about-rightcontent p {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 95px;
+}
+.about-button {
+  color: #ef6603;
+  border: 2px solid #ef6603;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.about-button:hover {
+  background-color: #fd9042;
+  color: rgb(255, 255, 255);
+}
+.about-cardone h4 {
+  font-weight: 600;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 40px;
+  cursor: pointer;
+  border: 1px solid #d4d6df;
+}
+
+.active_about_cardone {
+  background-color: #ef6603;
+  color: white;
+}
+.aboutcards-container {
+  padding-bottom: 30px;
+}
+.about-first-tabcontent h3,
+.competing_cardtitle h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.about-italicpara {
+  font-style: italic;
+}
+.callaction p,
+.callaction h3 {
+  color: white;
+  font-weight: 800;
+}
+.callaction p {
+  font-weight: initial;
+  font-size: 17px;
+}
+.callaction_padding {
+  padding: 70px;
+}
+.callaction_button button:focus {
+  outline: none;
+}
+.callaction_button button {
+  margin: 35px;
+}
+.service_cardicon img {
+  width: 80px;
+  align-items: center;
+}
+.service_cardtitle a,
+.competing_cardtitle h3 {
+  color: #2a2c39;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+.service_cardtitle a:hover {
+  text-decoration: none;
+  color: #ef6603;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+.service_cardbackground,
+.competing_cards {
+  background-color: #fff;
+  box-shadow: 1px 1px 5px #888888;
+  border-radius: 6px;
+}
+.portfolio_image img {
+  max-width: 100%;
+  height: auto;
+}
+.testimonals {
+  padding: 80px 0px;
+}
+.competing_cardtitle h3 {
+  color: #777777;
+  background-color: #f8f8f8;
+  font-size: 19px;
+  text-align: center;
+  padding: 30px;
+}
+.competing_duration h4 {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+}
+.competing_descripttion p {
+  text-align: center;
+  color: #444444;
+  font-size: 15px;
+}
+.competing_btn button {
+  background-color: #ef6603;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+.competing_btn button:focus {
+  outline: none;
+}
+
+.competing_btn {
+  text-align: center;
+  padding: 30px;
+  background-color: #f8f8f8;
+}
+.active_card {
+  border: 2px solid rgb(239, 102, 3);
+}
+.active_card .competing_cardtitle h3 {
+  background-color: rgb(239, 102, 3);
+}
+.questions:hover {
+  color: #ef6603;
+}
+.team_img img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.team_img h4,
+.location h4,
+.email h4,
+.call h4 {
+  font-weight: 700;
+  padding: 20px 0px 0px 7px;
+}
+.team_img span,
+.location p,
+.email p,
+.call p {
+  color: #aaaaaa;
+  padding: 20px 0px 0px 7px;
+}
+.teamimage_title {
+  box-shadow: 1px 1px 5px #888888;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.footer h3 {
+  font-weight: 700;
+  font-size: 37px;
+  color: #fff;
+  padding: 30px 0px 10px 0px;
+  text-align: center;
+}
+.footer p {
+  color: #fff;
+  text-align: center;
+}
+.footer {
+  background-color: #14151c;
+  padding-bottom: 20px;
+}
+.footer_icons img {
+  width: 50px;
+  padding: 10px;
+  padding-bottom: 15px;
+  /* background-color: red; */
+}
+.coperight span {
+  color: #ef6603;
+}
+
+.coperight_secondpara {
+  margin: 0px;
+}
